@@ -71,7 +71,9 @@ class ProductDetails extends StatelessWidget {
                 ),
                 Row(
                   children: [
-                    tabIcon(icon: Icons.access_time_rounded),
+                    tabIcon(
+                        icon: Icons.access_time_rounded,
+                        color: AppColors.tabColor),
                     SizedBox(
                       width: 11.w,
                     ),
